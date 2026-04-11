@@ -50,6 +50,11 @@ body {
     transition: all 0.3s;
 }
 
+.main-btn:hover {
+    background: #c6def5;
+    transform: scale(1.1);
+}
+
 
 .choice-btn.active { 
     background: #4a90e2; 
