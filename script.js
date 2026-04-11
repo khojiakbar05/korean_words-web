@@ -136,6 +136,229 @@ const books = {
         "18과": [
             {kr: "연극", uz: "teatr/spektakl"}, {kr: "무대", uz: "sahna"}, {kr: "관객", uz: "tomoshabin"}, {kr: "대본", uz: "ssenariy"}, {kr: "대사", uz: "monolog/gaplar"}, {kr: "숨기다", uz: "yashirmoq"}, {kr: "빼앗다", uz: "tortib olmoq"}, {kr: "깨뜨리다", uz: "sindirmoq"}, {kr: "거울", uz: "ko‘zgu/oyna"}, {kr: "신기하다", uz: "ajablanarli/g‘alati"}, {kr: "도대체", uz: "o‘zi aslida"}, {kr: "시어머니", uz: "qaynona"}, {kr: "며느리", uz: "kelin"}, {kr: "영감", uz: "chol/cholvoy"}, {kr: "바닥", uz: "pol/er"}, {kr: "장롱", uz: "shkaf"}
         ]
+    },
+    "4A": {
+        "1과": [
+            {kr: "손재주가 좋다", uz: "qo'li gul/narsa yasashga usta"}, {kr: "설득력이 있다", uz: "ishontirish qobiliyati bor"}, {kr: "책임감이 강하다", uz: "mas'uliyati kuchli"}, {kr: "적성에 맞다", uz: "layoqatiga/qiziqishiga mos"}, {kr: "전공을 살리다", uz: "mutaxassisligi bo'yicha ishlamoq"}, {kr: "사교적", uz: "kirishimli/mulozamatli"}, {kr: "꿈을 이루다", uz: "orzusiga erishmoq"}, {kr: "법과대학", uz: "huquqshunoslik fakulteti"}, {kr: "경영대학", uz: "biznes/iqtisod fakulteti"}, {kr: "공과대학", uz: "muhandislik/politexnika"}, {kr: "의과대학", uz: "tibbiyot fakulteti"}
+        ],
+        "2과": [
+            {kr: "눈이 침침하다", uz: "ko'z xiralashishi"}, {kr: "목이 뻣뻣하다", uz: "bo'yin qotib qolishi"}, {kr: "속이 거북하다", uz: "oshqozon bezovta bo'lishi"}, {kr: "과로", uz: "haddan tashqari ko'p ishlash"}, {kr: "과식", uz: "me'yordan ortiq yeyish"}, {kr: "예방하다", uz: "oldini olmoq"}, {kr: "치료하다", uz: "davolamoq"}, {kr: "붕대를 감다", uz: "bint bog'lamoq"}, {kr: "깁스를 하다", uz: "gips qilmoq"}, {kr: "침을 놓다", uz: "igna bilan davolamoq"}, {kr: "진맥을 하다", uz: "pulsni tekshirmoq"}
+        ],
+        "3과": [
+            {kr: "득점을 하다", uz: "ochko/ball to'plamoq"}, {kr: "결승전에 진출하다", uz: "finalga chiqmoq"}, {kr: "막상막하이다", uz: "kuchlar teng/farqi yo'q"}, {kr: "자신만만하다", uz: "o'ziga juda ishonmoq"}, {kr: "흥미진진하다", uz: "juda qiziqarli/hayajonli"}, {kr: "역전패하다", uz: "yutayotib oxirida yutqazib qo'ymoq"}, {kr: "비기다", uz: "durrang o'ynamoq"}, {kr: "응원하다", uz: "muxlislik qilmoq"}, {kr: "최선을 다하다", uz: "bor kuchini ishga solmoq"}, {kr: "씨름", uz: "Koreys milliy kurashi"}
+        ],
+        "4과": [
+            {kr: "눈치가 없다", uz: "farosatsiz/sezgi sust"}, {kr: "고집이 세다", uz: "qaysar/o'jar"}, {kr: "자존심이 강하다", uz: "g'ururi baland"}, {kr: "당황스럽다", uz: "gangib qolmoq/hayron bo'lmoq"}, {kr: "실제", uz: "aslida/haqiqatda"}, {kr: "원만하다", uz: "muomalasi yaxshi/silliq"}, {kr: "의논하다", uz: "maslahatlashmoq"}, {kr: "침착하다", uz: "vazmin/osoyishta"}, {kr: "뛰어나다", uz: "ajralib turadigan/zo'r"}
+        ],
+        "5과": [
+            {kr: "시작이 반이다", uz: "boshlash — yarim muvaffaqiyat"}, {kr: "입이 가볍다", uz: "gapi ichida turmaydi/lag'monchi"}, {kr: "눈이 높다", uz: "talabi baland/dimog'dor"}, {kr: "발이 넓다", uz: "tanish-bilishi ko'p"}, {kr: "제대로", uz: "to'g'ri/kutilgandek"}, {kr: "죽마고우", uz: "ajralmas bolalikdagi do'st"}, {kr: "안타깝다", uz: "achinarli/afsuslanarli"}, {kr: "정신이 없다", uz: "boshi chiqqan/juda band"}
+        ],
+        "6과": [
+            {kr: "감동적이다", uz: "ta'sirli"}, {kr: "가슴이 찡하다", uz: "yurakni o'rtaydigan"}, {kr: "볼거리", uz: "tomosha qilsa arziydigan narsalar"}, {kr: "존경하다", uz: "hurmat qilmoq"}, {kr: "화려하다", uz: "hashamatli/yorqin"}, {kr: "인상적이다", uz: "taassurot qoldiradigan"}, {kr: "우아하다", uz: "nafis/latofatli"}, {kr: "공포 영화", uz: "qo'rqinchli film"}, {kr: "새롭다", uz: "yangi/original"}
+        ],
+        "7과": [
+            {kr: "말도 안 되다", uz: "aqlga sig'maydi/bo'lishi mumkin emas"}, {kr: "논란이 되다", uz: "bahs-munozaraga sabab bo'lmoq"}, {kr: "배려를 하다", uz: "hurmat/e'tibor ko'rsatmoq"}, {kr: "방해가 되다", uz: "xalaqit bermoq"}, {kr: "항의", uz: "shikoyat/protest"}, {kr: "금지하다", uz: "taqiqlamoq"}, {kr: "당장", uz: "darhol"}, {kr: "임금님", uz: "qirol/podshoh"}, {kr: "백성", uz: "xalq"}
+        ],
+        "8과": [
+            {kr: "공통점이 있다", uz: "o'xshashlik/umumiylik bor"}, {kr: "독특하다", uz: "o'ziga xos/unikal"}, {kr: "벼룩시장", uz: "eski-tushki bozori"}, {kr: "야시장", uz: "tungi bozor"}, {kr: "다양하다", uz: "rang-barang/turli-tuman"}, {kr: "사투리", uz: "sheva/dialekt"}, {kr: "보존하다", uz: "saqlamoq/asramoq"}, {kr: "자기 주장을 내세우다", uz: "o'z fikrini ma'qullatmoq"}
+        ],
+        "9과": [
+            {kr: "꿈만 같다", uz: "tushga o'xshaydi"}, {kr: "심장이 터질 것 같다", uz: "yurak qinidan chiqib ketay deyapti"}, {kr: "실감이 안 나다", uz: "ishonish qiyin/his qilib bo'lmayapti"}, {kr: "주목을 받다", uz: "diqqat markazida bo'lmoq"}, {kr: "기립 박수", uz: "tik turib qarsak chalish"}, {kr: "솔직하다", uz: "samimiy/ochiqko'ngil"}, {kr: "주인공", uz: "bosh qahramon"}, {kr: "효도", uz: "ota-onaga sadoqat/izzat-ikrom"}
+        ]
+    },
+    "4A": {
+        "1과": [
+            {kr: "손재주가 좋다", uz: "qo'li gul/narsa yasashga usta"}, {kr: "설득력이 있다", uz: "ishontirish qobiliyati bor"}, {kr: "책임감이 강하다", uz: "mas'uliyati kuchli"}, {kr: "적성에 맞다", uz: "layoqatiga/qiziqishiga mos"}, {kr: "전공을 살리다", uz: "mutaxassisligi bo'yicha ishlamoq"}, {kr: "사교적", uz: "kirishimli/mulozamatli"}, {kr: "꿈을 이루다", uz: "orzusiga erishmoq"}, {kr: "법과대학", uz: "huquqshunoslik fakulteti"}, {kr: "경영대학", uz: "biznes/iqtisod fakulteti"}, {kr: "공과대학", uz: "muhandislik/politexnika"}, {kr: "의과대학", uz: "tibbiyot fakulteti"}
+        ],
+        "2과": [
+            {kr: "눈이 침침하다", uz: "ko'z xiralashishi"}, {kr: "목이 뻣뻣하다", uz: "bo'yin qotib qolishi"}, {kr: "속이 거북하다", uz: "oshqozon bezovta bo'lishi"}, {kr: "과로", uz: "haddan tashqari ko'p ishlash"}, {kr: "과식", uz: "me'yordan ortiq yeyish"}, {kr: "예방하다", uz: "oldini olmoq"}, {kr: "치료하다", uz: "davolamoq"}, {kr: "붕대를 감다", uz: "bint bog'lamoq"}, {kr: "깁스를 하다", uz: "gips qilmoq"}, {kr: "침을 놓다", uz: "igna bilan davolamoq"}, {kr: "진맥을 하다", uz: "pulsni tekshirmoq"}
+        ],
+        "3과": [
+            {kr: "득점을 하다", uz: "ochko/ball to'plamoq"}, {kr: "결승전에 진출하다", uz: "finalga chiqmoq"}, {kr: "막상막하이다", uz: "kuchlar teng/farqi yo'q"}, {kr: "자신만만하다", uz: "o'ziga juda ishonmoq"}, {kr: "흥미진진하다", uz: "juda qiziqarli/hayajonli"}, {kr: "역전패하다", uz: "yutayotib oxirida yutqazib qo'ymoq"}, {kr: "비기다", uz: "durrang o'ynamoq"}, {kr: "응원하다", uz: "muxlislik qilmoq"}, {kr: "최선을 다하다", uz: "bor kuchini ishga solmoq"}, {kr: "씨름", uz: "Koreys milliy kurashi"}
+        ],
+        "4과": [
+            {kr: "눈치가 없다", uz: "farosatsiz/sezgi sust"}, {kr: "고집이 세다", uz: "qaysar/o'jar"}, {kr: "자존심이 강하다", uz: "g'ururi baland"}, {kr: "당황스럽다", uz: "gangib qolmoq/hayron bo'lmoq"}, {kr: "실제", uz: "aslida/haqiqatda"}, {kr: "원만하다", uz: "muomalasi yaxshi/silliq"}, {kr: "의논하다", uz: "maslahatlashmoq"}, {kr: "침착하다", uz: "vazmin/osoyishta"}, {kr: "뛰어나다", uz: "ajralib turadigan/zo'r"}
+        ],
+        "5과": [
+            {kr: "시작이 반이다", uz: "boshlash — yarim muvaffaqiyat"}, {kr: "입이 가볍다", uz: "gapi ichida turmaydi/lag'monchi"}, {kr: "눈이 높다", uz: "talabi baland/dimog'dor"}, {kr: "발이 넓다", uz: "tanish-bilishi ko'p"}, {kr: "제대로", uz: "to'g'ri/kutilgandek"}, {kr: "죽마고우", uz: "ajralmas bolalikdagi do'st"}, {kr: "안타깝다", uz: "achinarli/afsuslanarli"}, {kr: "정신이 없다", uz: "boshi chiqqan/juda band"}
+        ],
+        "6과": [
+            {kr: "감동적이다", uz: "ta'sirli"}, {kr: "가슴이 찡하다", uz: "yurakni o'rtaydigan"}, {kr: "볼거리", uz: "tomosha qilsa arziydigan narsalar"}, {kr: "존경하다", uz: "hurmat qilmoq"}, {kr: "화려하다", uz: "hashamatli/yorqin"}, {kr: "인상적이다", uz: "taassurot qoldiradigan"}, {kr: "우아하다", uz: "nafis/latofatli"}, {kr: "공포 영화", uz: "qo'rqinchli film"}, {kr: "새롭다", uz: "yangi/original"}
+        ],
+        "7과": [
+            {kr: "말도 안 되다", uz: "aqlga sig'maydi/bo'lishi mumkin emas"}, {kr: "논란이 되다", uz: "bahs-munozaraga sabab bo'lmoq"}, {kr: "배려를 하다", uz: "hurmat/e'tibor ko'rsatmoq"}, {kr: "방해가 되다", uz: "xalaqit bermoq"}, {kr: "항의", uz: "shikoyat/protest"}, {kr: "금지하다", uz: "taqiqlamoq"}, {kr: "당장", uz: "darhol"}, {kr: "임금님", uz: "qirol/podshoh"}, {kr: "백성", uz: "xalq"}
+        ],
+        "8과": [
+            {kr: "공통점이 있다", uz: "o'xshashlik/umumiylik bor"}, {kr: "독특하다", uz: "o'ziga xos/unikal"}, {kr: "벼룩시장", uz: "eski-tushki bozori"}, {kr: "야시장", uz: "tungi bozor"}, {kr: "다양하다", uz: "rang-barang/turli-tuman"}, {kr: "사투리", uz: "sheva/dialekt"}, {kr: "보존하다", uz: "saqlamoq/asramoq"}, {kr: "자기 주장을 내세우다", uz: "o'z fikrini ma'qullatmoq"}
+        ],
+        "9과": [
+            {kr: "꿈만 같다", uz: "tushga o'xshaydi"}, {kr: "심장이 터질 것 같다", uz: "yurak qinidan chiqib ketay deyapti"}, {kr: "실감이 안 나다", uz: "ishonish qiyin/his qilib bo'lmayapti"}, {kr: "주목을 받다", uz: "diqqat markazida bo'lmoq"}, {kr: "기립 박수", uz: "tik turib qarsak chalish"}, {kr: "솔직하다", uz: "samimiy/ochiqko'ngil"}, {kr: "주인공", uz: "bosh qahramon"}, {kr: "효도", uz: "ota-onaga sadoqat/izzat-ikrom"}
+        ]
+    },
+    "4B": {
+        "11과 (Afsonalar va Ramzlar)": [
+            {kr: "진열하다", uz: "namoyish qilmoq/taxlamoq"}, {kr: "모범생", uz: "namunali o'quvchi"}, {kr: "철이 없다", uz: "ongi past/yosh bola kabi"}, {kr: "입장", uz: "vaziyat/nuqtayi nazar"}, {kr: "구멍에 빠지다", uz: "chuqurga tushib ketmoq"}, {kr: "신화", uz: "afsona/mif"}, {kr: "다스리다", uz: "boshqarmoq/hukmronlik qilmoq"}, {kr: "상징하다", uz: "ramzini ifodalamoq"}, {kr: "판단하다", uz: "hukm chiqarmoq/mulohaza qilmoq"}
+        ],
+        "12과 (Til va Jamiyat)": [
+            {kr: "도대체", uz: "aslida/o'zi/hudoxaqi"}, {kr: "소용이 없다", uz: "foydasi yo'q"}, {kr: "콩글리시", uz: "Koreyscha ingliz tili (Konglish)"}, {kr: "일리가 있다", uz: "gapida joni bor/mantiqli"}, {kr: "사생활", uz: "shaxsiy hayot"}, {kr: "노출되다", uz: "oshkor bo'lmoq/tarqalmoq"}, {kr: "이성적이다", uz: "aqliy/mantiqiy"}, {kr: "영향을 미치다", uz: "ta'sir o'tkazmoq"}
+        ],
+        "13과 (Atrof-muhit)": [
+            {kr: "정전이 되다", uz: "elektr o'chib qolmoq"}, {kr: "낭비", uz: "isrof/beuda sarflash"}, {kr: "재활용센터", uz: "qayta ishlash markazi"}, {kr: "오염시키다", uz: "ifloslantirmoq"}, {kr: "해롭다", uz: "zararli"}, {kr: "시위를 벌이다", uz: "namoyish/piket o'tkazmoq"}, {kr: "빙하", uz: "muzlik (glacier)"}, {kr: "흡수하다", uz: "shimib olmoq/yutmoq"}
+        ],
+        "14과 (Sayohat va Madaniyat)": [
+            {kr: "반하다", uz: "maftun bo'lmoq/sevib qolmoq"}, {kr: "풍경", uz: "manzara/peyzaj"}, {kr: "생동감이 있다", uz: "jonli/hayotiylik hissi bor"}, {kr: "항구", uz: "port/bandargoh"}, {kr: "일출", uz: "quyosh chiqishi"}, {kr: "일몰", uz: "quyosh botishi"}, {kr: "휴양여행", uz: "dam olish sayohati"}, {kr: "약자", uz: "qisqartma so'z"}
+        ],
+        "15과 (Shaxsiyat va Jamiyat)": [
+            {kr: "쾌활하다", uz: "shodon/xushchaqchaq"}, {kr: "만만치 않다", uz: "oson emas/arzimas emas"}, {kr: "자격증을 따다", uz: "sertifikat olmoq"}, {kr: "조화를 이루da", uz: "uyg'unlikka erishmoq"}, {kr: "공경하다", uz: "katta yoshlilarni hurmat qilmoq"}, {kr: "이상적이다", uz: "ideal/mukammal"}, {kr: "합창단", uz: "xor jamoasi"}
+        ],
+        "16과 (Hayvonlar va Tabiat)": [
+            {kr: "애완동물", uz: "uy hayvoni"}, {kr: "짖다", uz: "vovullamoq (it)"}, {kr: "용감하다", uz: "botir/dovyurak"}, {kr: "충성심", uz: "sadoqat hissi"}, {kr: "본능", uz: "instinkt/ichki sezgi"}, {kr: "위협하다", uz: "tahdid solmoq"}, {kr: "위기", uz: "inqiroz/krizis"}, {kr: "해몽", uz: "tush ta'biri"}
+        ],
+        "17과 (Fan va Kelajak)": [
+            {kr: "인류", uz: "insoniyat"}, {kr: "목격하다", uz: "guvoh bo'lmoq"}, {kr: "개발하다", uz: "rivojlantirmoq/yaratmoq"}, {kr: "유전", uz: "irsiyat/genetika"}, {kr: "우성", uz: "dominant (irsiyatda)"}, {kr: "보조개", uz: "kuldirgich"}, {kr: "주근깨", uz: "sepkil"}, {kr: "마찰력", uz: "ishqalanish kuchi"}, {kr: "그림자", uz: "soya"}
+        ],
+        "18과 (Hayotiy Hikoyalar)": [
+            {kr: "당첨되다", uz: "yutib olmoq (lotereya)"}, {kr: "맴돌다", uz: "aylanib yurmoq (fikr/odam)"}, {kr: "미소", uz: "tabassum"}, {kr: "헤매da", uz: "adashib yurmoq/tentiramoq"}, {kr: "훈련ni 받다", uz: "mashg'ulot/tayyorgarlikdan o'tmoq"}, {kr: "이등병", uz: "oddiy askar (radyovoy)"}
+        ],
+        "19과 (Koreys Xalq Ertaklari - Xungbu va Nolbu)": [
+            {kr: "마음씨가 고약하다", uz: "fe'li yomon/ichi qora"}, {kr: "뻔뻔하다", uz: "yuzsiz/betgachapar"}, {kr: "오두막집", uz: "kulba/eski kichkina uy"}, {kr: "다급하다", uz: "shoshilinch/tezkor"}, {kr: "하루아침에", uz: "bir kechada/to'satdan"}, {kr: "흥분하다", uz: "hayajonlanmoq/to'lqinlanmoq"}
+        ]
+    },
+    "5A": {
+        "1과 (Tashqi ko'rinish va Xarakter)": [
+            {kr: "갸름하다", uz: "yuz tuzilishi uzunchoq/oval"}, {kr: "날카롭다", uz: "o'tkir/ziyrak"}, {kr: "단정하다", uz: "ozoda/tartibli"}, {kr: "상냥하다", uz: "muloyim/xushmuomala"}, {kr: "낙관적", uz: "optmist"}, {kr: "비관적", uz: "pessimist"}, {kr: "내성적", uz: "introvert/odamovi"}, {kr: "외향적", uz: "ekstravert/chiqishimli"}, {kr: "차분하다", uz: "vazmin/og'ir-bosiq"}
+        ],
+        "2과 (Yordam qo'li va Muhabbat)": [
+            {kr: "기부하다", uz: "ehson qilmoq"}, {kr: "노숙자", uz: "uysiz (homeless)"}, {kr: "실천하다", uz: "amalda qo'llamoq"}, {kr: "안타깝다", uz: "achinarli/afsuslanarli"}, {kr: "천생연분", uz: "taqdirdan bitilgan juftlik"}, {kr: "헌신적이다", uz: "fidoyi bo'lmoq"}, {kr: "허둥지둥", uz: "shoshib-pishib/sarosimada"}
+        ],
+        "3과 (Oila va Jamiyat)": [
+            {kr: "가부장 제도", uz: "patriarxat (ota boshliq) tizimi"}, {kr: "핵가족", uz: "kichik oila (ota-ona va farzandlar)"}, {kr: "대가족", uz: "katta oila (qarindoshlar bilan)"}, {kr: "존중하다", uz: "hurmat qilmoq/e'zozlamoq"}, {kr: "저출산", uz: "tug'ilishning kamayishi"}, {kr: "고령화", uz: "aholining qarishi"}
+        ],
+        "4과 (Kasb va Ish joyi)": [
+            {kr: "유망하다", uz: "kelajagi porloq/istiqbolli"}, {kr: "연봉", uz: "yillik maosh"}, {kr: "자격증", uz: "sertifikat/guvohnoma"}, {kr: "면접", uz: "suhbat (interview)"}, {kr: "이력서", uz: "rezyume/anketa"}, {kr: "채용", uz: "ishga qabul qilish"}
+        ],
+        "5과 (Ta'lim tizimi)": [
+            {kr: "공교육", uz: "davlat ta'limi"}, {kr: "사교육", uz: "xususiy ta'lim/repetitorlik"}, {kr: "의무 교육", uz: "majburiy ta'lim"}, {kr: "입시 지옥", uz: "imtihonlar azobi (qiyinligi)"}, {kr: "학력", uz: "ma'lumot darajasi/bilim"}
+        ],
+        "Sokdam (Maqollar)": [
+            {kr: "누워서 떡 먹기", uz: "juda oson (og'izdagi osh)"}, {kr: "그림의 떡", uz: "qo'l yetmas orzu"}, {kr: "시작이 반이다", uz: "boshlanishi yarmi"}, {kr: "갈수록 태산", uz: "borsa kelmas/qiyinlashib bormoq"}
+        ],
+        "Hanja-seong-eo (4 bo'g'inli iboralar)": [
+            {kr: "작심삼일", uz: "uch kunlik qaror (irodasi kuchsizlik)"}, {kr: "부전자전", uz: "otasiga tortgan/qoni bir"}, {kr: "설상가상", uz: "yomg'ir ustiga qor (baxtsizlik ustiga baxtsizlik)"}
+        ]
+    },
+    "5B": {
+        "8-9과 (Ommaviy axborot vositalari va Iqtisodiyot)": [
+            {kr: "대중 매체", uz: "ommaviy axborot vositalari (OAV)"},
+            {kr: "경기가 회복되다", uz: "iqtisodiy holat yaxshilanmoq"},
+            {kr: "불황", uz: "iqtisodiy turg'unlik/yomonlashuv"},
+            {kr: "호황", uz: "iqtisodiy ko'tarilish/yaxshilanish"},
+            {kr: "흑자가 나da", uz: "foyda ko'rmoq (export > import)"},
+            {kr: "적자가 나da", uz: "zarar ko'rmoq (import > export)"},
+            {kr: "생필품", uz: "kundalik zaruriy buyumlar"},
+            {kr: "실업률", uz: "ishsizlik darajasi"}
+        ],
+        "10과 (Kino va San'at)": [
+            {kr: "관객", uz: "tomoshabin"},
+            {kr: "조조할인", uz: "ertalabki seans uchun chegirma"},
+            {kr: "주연/조연", uz: "bosh rol / yordamchi rol"},
+            {kr: "줄거리", uz: "voqealar rivoji (syujet)"},
+            {kr: "촬영", uz: "tasvirga olish (syomka)"},
+            {kr: "편집", uz: "montaj/tahrir qilish"}
+        ],
+        "11과 (Reklama va Iste'molchi)": [
+            {kr: "생산하다", uz: "ishlab chiqarmoq"},
+            {kr: "소비하다", uz: "iste'mol qilmoq/sarf qilmoq"},
+            {kr: "투자하다", uz: "investitsiya kiritmoq"},
+            {kr: "허위 광고", uz: "yolg'on reklama"},
+            {kr: "혜택", uz: "imtiyoz/foyda/bonus"}
+        ],
+        "Iboralar (Gwanyong-pyohyeon)": [
+            {kr: "눈에 안 차다", uz: "ko'ngli to'lmaslik (yoqmaslik)"},
+            {kr: "한눈을 팔다", uz: "chalg'imoq (boshqa tomonga qaramoq)"},
+            {kr: "손을 놓다", uz: "ishni tashlamoq/to'xtatmoq"},
+            {kr: "배꼽이 빠지다", uz: "ichagi uzilguncha kulmoq"},
+            {kr: "눈을 붙이다", uz: "mizg'ib olmoq (uxlab olmoq)"}
+        ],
+        "12-13과 (Uy-joy va Milliy taomlar)": [
+            {kr: "한옥", uz: "Koreys milliy uyi"},
+            {kr: "아늑하다", uz: "shinam/baxtiyor muhit"},
+            {kr: "습도", uz: "namlik darajasi"},
+            {kr: "무치다", uz: "ziravorlar bilan aralashtirmoq"},
+            {kr: "데치da", uz: "qaynoq suvga botirib olmoq (blanching)"},
+            {kr: "고소하다", uz: "yog'li va mazali (kunjut hidi kabi)"},
+            {kr: "느끼하다", uz: "yog'li/ko'ngilga tegadigan"}
+        ]
+    },
+    "6A": {
+        "8과 (Oshxona va Moda tarixi)": [
+            {kr: "조리다", uz: "past olovda suvi qochguncha qaynatmoq"},
+            {kr: "채를 썰da", uz: "somon shaklida (ingichka) to'g'ramoq"},
+            {kr: "보수적이다", uz: "konservativ (eskicha qarashli)"},
+            {kr: "파격적이다", uz: "an'analarga zid/shok holatidagi yangilik"},
+            {kr: "격식을 차리다", uz: "rasmiyatchilikka/odobga rioya qilmoq"}
+        ],
+        "9과 (Shahar va Atrof-muhit)": [
+            {kr: "교통 체증", uz: "transport tirbandligi"},
+            {kr: "공존하다", uz: "birga mavjud bo'lmoq (koexistensiya)"},
+            {kr: "복원하다", uz: "asl holiga qaytarmoq (restavratsiya)"},
+            {kr: "친환경적", uz: "ekologik toza (ekofriendly)"},
+            {kr: "인구 집중", uz: "aholining bir joyga to'planishi (urbanizatsiya)"}
+        ],
+        "10과 (Tafakkur va Dunyoqarash)": [
+            {kr: "고정 관념", uz: "stereotip (qotib qolgan tushuncha)"},
+            {kr: "선입견", uz: "g'arazli fikr/oldindan shakllangan noto'g'ri tushuncha"},
+            {kr: "발상의 전환", uz: "fikrlash tarzini butunlay o'zgartirish"},
+            {kr: "관상/사주/손금", uz: "yuz/tug'ilgan sana/kaft orqali fol ochish"},
+            {kr: "호불호", uz: "yaxshi ko'rish yoki ko'rmaslik (did masalasi)"}
+        ],
+        "11과 (Tarixiy jarayonlar)": [
+            {kr: "건국", uz: "davlatga asos solish"},
+            {kr: "멸망", uz: "halokat/davlatning tugatilishi"},
+            {kr: "주도권을 잃다", uz: "yetakchilikni (tashabbusni) boy bermoq"},
+            {kr: "통일", uz: "birlashish (reunification)"},
+            {kr: "천도", uz: "poytaxtni ko'chirish"}
+        ],
+        "Iboralar (Gwanyong-pyohyeon)": [
+            {kr: "코웃음을 치da", uz: "mensimay kulmoq (pishqirmoq)"},
+            {kr: "혀를 차다", uz: "hayratdan yoki afsusdan tilni taqillatmoq"},
+            {kr: "벽에 부딪치다", uz: "to'siqqa (qiynalgan nuqtaga) duch kelmoq"},
+            {kr: "미역국을 먹다", uz: "imtihondan yiqilmoq (iboraviy)"},
+            {kr: "바가지를 긁다", uz: "ayoli erining boshini aylantirishi/vaysashi"}
+        ]
+    },
+    "6B": {
+        "8-9과 (Tarixiy shaxslar va Sayohat)": [
+            {kr: "즉위하다", uz: "taxtga o'tirmoq (prezidentlikka kelmoq)"},
+            {kr: "검소하다", uz: "oddiy/kamtarona hayot kechirmoq"},
+            {kr: "모범을 보이다", uz: "o'rnak/namuna ko'rsatmoq"},
+            {kr: "세계 문화유산", uz: "Butunjahon madaniy merosi (UNESCO)"},
+            {kr: "웅장하다", uz: "mahoratli/ulug'vor/katta"},
+            {kr: "지혜롭다", uz: "dono/oqil"}
+        ],
+        "12과 (Fan, Texnologiya va Etika)": [
+            {kr: "난치병", uz: "tuzalishi qiyin bo'lgan kasallik"},
+            {kr: "복제", uz: "klonlashtirish/nusxa ko'chirish"},
+            {kr: "부작용", uz: "nojo'ya ta'sir (side effect)"},
+            {kr: "존엄성", uz: "qadr-qimmat/muqaddaslik"},
+            {kr: "인권 침해", uz: "inson huquqlarining poymol qilinishi"},
+            {kr: "시행착오", uz: "sinov va xatolar usuli"}
+        ],
+        "13-14과 (Adabiyot va Insoniy tuyg'ular)": [
+            {kr: "단편/장편 소설", uz: "hikoya / roman"},
+            {kr: "필자/화자", uz: "muallif / hikoyachi (personaj)"},
+            {kr: "자살하다", uz: "o'z joniga qasd qilmoq"},
+            {kr: "동정심", uz: "rahmdillik/achinish hissi"},
+            {kr: "이기심", uz: "xudbinlik (egoizm)"},
+            {kr: "가슴이 찡하다", uz: "yuragi larzaga kelmoq (ta'sirlanmoq)"}
+        ],
+        "Baholash va Tibbiy iboralar": [
+            {kr: "애매모호하다", uz: "noaniq/klumush (vague)"},
+            {kr: "객관적/주관적", uz: "ob'ektiv / sub'ektiv"},
+            {kr: "메스껍다", uz: "ko'ngil aynimoq"},
+            {kr: "뻐근하다", uz: "mushaklar zo'riqib og'rishi"},
+            {kr: "나른하다", uz: "holsiz/quvvatsiz (lohas)"}
+        ]
     }
 };
 
