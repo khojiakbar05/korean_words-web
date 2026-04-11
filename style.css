@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0f2f5;
+    background-color: #dee2e8;
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -24,7 +24,7 @@ body {
 
 
 .card {
-    background: white; 
+    background: rgb(247, 243, 243); 
     padding: 30px; 
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
