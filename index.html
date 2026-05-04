@@ -6,48 +6,47 @@
     <title>Korean words</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./korean language.png" type="image/x-icon">
 </head>
 <body>
 
     <div class="main-container">
         
         <div id="book-screen" class="card">
-            <h1>Koreys Tili words</h1>
+            <h1>Korean words</h1>
             <div class="grid-container">
                 <button class="main-btn" onclick="showLessons()">서울대한국어 1A</button>
             </div>
         </div>
 
         <div id="menu-screen" class="card" style="display:none;">
-            <div class="header">
-                <button onclick="showBooks()" class="back-link">← Orqaga</button>
-            </div>
-            <h2>Darsni tanlang</h2>
+            
+            <h2>Choose the lesson</h2>
             <div id="class-list" class="grid-container"></div>
         </div>
 
         <div id="settings-screen" class="card" style="display:none;">
             <div class="header">
-                <button onclick="showLessons()" class="back-link">← Darslar</button>
+                <button onclick="showLessons()" class="back-link">← lessons</button>
             </div>
-            <h3 id="selected-lesson-name">Dars</h3>
+            <h3 id="selected-lesson-name">lesson</h3>
             
-            <p class="label">Savollar sonini tanlang:</p>
+            <p class="label">choose the question numbers:</p>
             <div class="settings-grid">
-                <button class="choice-btn active" onclick="setLimit(10, this)">10 ta</button>
-                <button class="choice-btn" onclick="setLimit(20, this)">20 ta</button>
-                <button class="choice-btn" onclick="setLimit(30, this)">30 ta</button>
+                <button class="choice-btn active" onclick="setLimit(10, this)">10</button>
+                <button class="choice-btn" onclick="setLimit(20, this)">20</button>
+                <button class="choice-btn" onclick="setLimit(30, this)">30</button>
             </div>
 
-            <p class="label">Test yo'nalishi:</p>
+            <p class="label">Choose the language:</p>
             <div class="settings-grid">
-                <button class="choice-btn active" onclick="setMode('mix', this)">Aralash</button>
-                <button class="choice-btn" onclick="setMode('kr-uz', this)">KR → UZ</button>
-                <button class="choice-btn" onclick="setMode('uz-kr', this)">UZ → KR</button>
+                <button class="choice-btn active" onclick="setMode('mix', this)">Mixed</button>
+                <button class="choice-btn" onclick="setMode('kr-uz', this)">KR → EN</button>
+                <button class="choice-btn" onclick="setMode('uz-kr', this)">EN → KR</button>
             </div>
           
 
-            <button class="start-btn" onclick="startQuizNow()">Testni boshlash</button>
+            <button class="start-btn" onclick="startQuizNow()">Start of test</button>
         </div>
 
        
@@ -57,22 +56,22 @@
             </div>
             <div class="quiz-info">
                 <span id="quiz-status">1 / 10</span>
-                <span>To'g'ri: <b id="live-score">0</b></span>
+                <span>Correct: <b id="live-score">0</b></span>
             </div>
-            <h2 id="word-to-guess">Yuklanmoqda...</h2>
+            <h2 id="word-to-guess">Downloading...</h2>
             <div id="options-container" class="grid-container"></div>
             <div id="result-message"></div>
-            <button id="next-btn" class="start-btn" onclick="nextQuestion()" style="display:none;">Keyingi savol</button>
+            <button id="next-btn" class="start-btn" onclick="nextQuestion()" style="display:none;">Next question</button>
         </div>
         
 
         <div id="final-screen" class="card" style="display:none;">
-            <h2>Natija</h2>
+            <h2>Result</h2>
             <div class="score-circle">
                 <span id="final-percent">0%</span>
             </div>
-            <p id="final-stat">0 tadan 0 ta topdingiz</p>
-            <button class="start-btn" onclick="showLessons()">Qaytadan urinish</button>
+            <p id="final-stat">0 out of 0</p>
+            <button class="start-btn" onclick="showLessons()">Take again</button>
         </div>
 
     </div>

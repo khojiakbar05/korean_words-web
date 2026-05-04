@@ -420,10 +420,7 @@ function showLessons() {
     const backBtn = document.createElement('button');
     backBtn.className = 'main-btn back-btn';
     backBtn.innerText = "🔙 Back";
-    backBtn.onclick = () => {
-        if(currentCategory === 'words') showBooks();
-        else showGrammarLevels();
-    };
+    backBtn.onclick = showMainMenu;
     list.appendChild(backBtn);
 
     const currentData = currentCategory === 'words' ? books[currentBook] : grammars[currentBook];
